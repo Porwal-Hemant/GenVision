@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* This line imports the "Outfit" font from Google Fonts.
+   This allows us to use this font in our project without having to install it manually. */
+
+
+@import "tailwindcss";   
+/* above line is for importing TAILWIND CSS */
+
+* {
+  font-family: Outfit;
+  /* This sets the default font of all elements (*) on the webpage to "Outfit".
+     The browser will apply this font to all text elements unless overridden by a more specific rule. */
+}
+
+
+.bg-layer {
+   background-image: url(/bg_layer.png);
+ }

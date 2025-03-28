@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEN-VISION</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      window.onload = function () {
+        var chatbotIframe = document.createElement("iframe");
+        chatbotIframe.src = "https://www.chatbase.co/chatbot-iframe/Kph938zi4cp5Hc3JPOiUP";
+        chatbotIframe.style.width = "100%";
+        chatbotIframe.style.height = "100%";
+        chatbotIframe.style.minHeight = "700px";
+        chatbotIframe.frameBorder = "0";
+
+        document.body.appendChild(chatbotIframe);
+      };
+    </script>    
+  </body>
+</html>
+
+
