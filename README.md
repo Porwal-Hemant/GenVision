@@ -96,3 +96,13 @@ cd client
 npm install
 npm run dev
 
+
+More about this project -> 
+Usage
+
+1-Open the application in your browser.
+2-Login or sign up to access features.
+3-Use the chatbot to generate images by providing custom commands.
+4-Upload images to remove backgrounds.
+5-Save or download the generated images.
+6-Complete payments using Razorpay for premium features.
