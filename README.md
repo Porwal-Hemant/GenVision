@@ -66,15 +66,23 @@ Clone the Repository
 https://github.com/Porwal-Hemant/GenVision
 
 STEP 2 -> 
+
 Setup the Server
+
 cd server
+
 npm install
+
 npm start
 
 STEP 3 -> 
+
 Setup the Client
+
 cd client
+
 npm install
+
 npm run dev
 
 
