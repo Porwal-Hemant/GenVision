@@ -1,27 +1,24 @@
 Image Creation SAAS Application
 
-Table of Contents
+1 - Table of Contents 
 
-Overview
+2 - Overview
 
-Features
+3 - Features
 
-Tech Stack
+4 - Tech Stack
 
-Installation
+5 - Installation
 
-Usage
+6 - Usage
 
-API Endpoints
+7 - API Endpoints
 
-License
-
-
-Overview
+Overview ->
 
 This is a SaaS (Software as a Service) application that allows users to create images as per their needs by tailoring commands via an embedded chatbot. Additionally, the application provides a background remover to enhance image quality further.
 
-Features
+Features ->
 
 AI-powered chatbot to generate images based on user inputs.
 Background remover for enhanced image customization.
@@ -29,24 +26,34 @@ Secure user authentication and authorization.
 Integrated payment gateway using Razorpay.
 Responsive and user-friendly UI.
 
-Tech Stack
+Tech Stack ->
 
 React.js
 
 Tailwind CSS
 
 React Router
+
 Axios
+
 React Toastify
+
 Backend
+
 Node.js
+
 Express.js
+
 MongoDB (Mongoose)
+
 JWT for authentication
+
 Multer for file uploads
+
 Razorpay for payment processing
 
-Installation
+
+Installation ->
 
 Prerequisites
 Ensure you have the following installed:
