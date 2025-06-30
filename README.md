@@ -1,102 +1,128 @@
-Image Creation SAAS Application
+# GenVision - Image Creation SaaS Application
 
-1 - Table of Contents 
+##  Test Credentials
 
-2 - Overview
+You can use the following test account to explore the app:
 
-3 - Features
+- **Email**: test@gmail.com  
+- **Password**: 123456789
 
-4 - Tech Stack
+> **Note**: For the best experience, use this platform on a **desktop or laptop** device.
 
-5 - Installation
+---
 
-6 - Usage
+##  Description
 
-7 - API Endpoints
+**GenVision** is a SaaS (Software as a Service) application that allows users to generate AI-powered images using a chatbot interface. It also includes a background remover tool and premium features powered by Razorpay payments.
 
-Overview ->
+---
 
-This is a SaaS (Software as a Service) application that allows users to create images as per their needs by tailoring commands via an embedded chatbot. Additionally, the application provides a background remover to enhance image quality further.
+##  Core Features
 
-Features ->
+- **AI-Powered Chatbot**: Type custom commands to generate images.
+- **Background Remover**: Enhance uploaded images by removing backgrounds.
+- **Secure Authentication**: JWT-based login system for secure access.
+- **Razorpay Integration**: Users can upgrade to premium for advanced features.
+- **Modern UI**: Built with Tailwind CSS and responsive across devices.
 
-AI-powered chatbot to generate images based on user inputs.
-Background remover for enhanced image customization.
-Secure user authentication and authorization.
-Integrated payment gateway using Razorpay.
-Responsive and user-friendly UI.
+---
 
-Tech Stack ->
+##  Tech Stack
 
-React.js
+- **Frontend**: React.js, Tailwind CSS, React Router, Axios, React Toastify  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB (via Mongoose)  
+- **Authentication**: JWT  
+- **File Uploads**: Multer  
+- **Payments**: Razorpay  
 
-Tailwind CSS
+---
 
-React Router
+##  Folder Structure
 
-Axios
+```bash
+genvision/
+├── client/        # React frontend
+└── server/        # Node.js backend
 
-React Toastify
+```
 
-Backend
+##  Getting Started
 
-Node.js
+Follow these steps to set up **PulseVibe** locally.
 
-Express.js
+---
 
-MongoDB (Mongoose)
+###  1. Clone the Repository
 
-JWT for authentication
+```bash
+git clone https://github.com/Porwal-Hemant/GenVision.git
+cd GenVision
+```
 
-Multer for file uploads
+###  2. Install Dependencies
+PulseVibe may have separate folders for client and server ( named **client** and **server** )
 
-Razorpay for payment processing
+- Install Backend Dependencies
 
-
-Installation ->
-
-Prerequisites
-Ensure you have the following installed:
-Node.js
-npm or yarn
-MongoDB (if running locally)
-
-STEP 1 -> 
-Clone the Repository
-https://github.com/Porwal-Hemant/GenVision
-
-STEP 2 -> 
-
-Setup the Server
-
+```bash
 cd server
-
 npm install
-
 npm start
 
-STEP 3 -> 
+```
 
-Setup the Client
-
-cd client
-
+-  Install Frontend Dependencies
+```bash
+cd ../client
 npm install
+npm run dev
+```
 
+###  3. Configure Environment Variables
+
+- Create a `.env` file inside the **server** folder and add:
+
+```bash
+PORT               =  5001
+MONGODB_URI        =  your_mongodb_connection_string
+JWT_SECRET_KEY     =  your_jwt_secret_key
+NODE_ENV           =  production
+```
+### 4. Start the Server
+
+```bash
+cd server
+npm start
+
+```
+
+- The backend will start at: http://localhost:5001
+
+### 5. Start the client
+
+Open a new terminal:
+
+```bash
+cd client
 npm run dev
 
+```
+- The frontend will run at: http://localhost:5173
 
-More about this project -> 
-Usage
+###  Usage Instructions
 
-1-Open the application in your browser.
+- **Open the application** in your browser.
+- **Sign up or log in** using the test credentials provided above.
+- **Use the embedded chatbot** to generate images by entering custom commands.
+- **Upload images** to remove their backgrounds using the background remover feature.
+- **Download the generated images** to your device as needed.
+- **Access premium features** by completing payments via Razorpay.
 
-2-Login or sign up to access features.
+##  Developer Info
 
-3-Use the chatbot to generate images by providing custom commands.
+- **Name**: Hemant Porwal  
+- **Email**: [hemantporwal2k3@gmail.com](mailto:hemantporwal2k3@gmail.com)  
+- **LinkedIn**: [https://www.linkedin.com/in/hemantporwal/](https://www.linkedin.com/in/hemantporwal/)
 
-4-Upload images to remove backgrounds.
 
-5-Save or download the generated images.
-
-6-Complete payments using Razorpay for premium features.
